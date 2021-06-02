@@ -14,3 +14,17 @@ Coding question 3:💻 Draw this Pattern 👇
  * * * *
 * * * * *
 ```
+Coding question 4: 
+Program to accept three numbers from user and print them in ascending and decending order<br>
+
+Coding question 5: 
+Create the Swastika Pattern
+```
+*     * * * * 
+*     *
+*     *
+* * * * * * * 
+      *     *
+      *     *
+* * * *     *       
+```
