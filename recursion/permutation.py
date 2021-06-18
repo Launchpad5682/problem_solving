@@ -1,9 +1,9 @@
 
-permutation = []
-permutations = []
+permutation = [] # permutation 
+permutations = [] # all the permutations
 
 
-def search():
+def search(arr, chosen):
 
     # process permutation
     if len(permutation) == len(arr):
@@ -17,7 +17,7 @@ def search():
 
             chosen[index] = True
             permutation.append(arr[index])
-            search()
+            search(arr, chosen)
             chosen[index] = False
             permutation.pop()
 
@@ -26,8 +26,9 @@ arr = [1, 2, 3]
 chosen = []
 size = len(arr)
 
+# setting chosen to False
 for i in range(size):
     chosen.append(False)
 
-search()
+search(arr, chosen)
 print(permutations)
