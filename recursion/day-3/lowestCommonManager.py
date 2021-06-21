@@ -1,6 +1,3 @@
-from os import name
-
-
 class OrgInfo:
 
     def __init__(self) -> None:
