@@ -5,7 +5,7 @@
 
 - [x] Check Palindrome String 
 - [x] Caesar Cipher
-- [ ] First Non Repeating Character
-- [ ] Run Length Encoding
-- [ ] Sparse Matrix Multiplication
-- [ ] Generate Document 
+- [x] First Non Repeating Character
+- [x] Run Length Encoding
+- [x] Sparse Matrix Multiplication
+- [x] Generate Document 
