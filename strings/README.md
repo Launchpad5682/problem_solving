@@ -9,3 +9,12 @@
 - [x] Run Length Encoding
 - [x] Sparse Matrix Multiplication
 - [x] Generate Document 
+
+## Day 2
+
+- [x] Group Anagrams
+- [x] Longest Palindrome
+- [x] Valid IP Addresses
+- [x] Reverse words in a string
+- [x] Minimum Characters for words
+- [ ] Get Statistics
