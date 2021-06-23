@@ -1,3 +1,8 @@
+"""
+I'm using a extra chosen array and mark it with true for selected.
+Then check there sum of alphabets
+"""
+
 
 def anagramHelper(string):
     sum = 0
@@ -18,7 +23,7 @@ def anagramList(words, chosen):
             #print(index)
             chosen[index] = True
             for i, j in enumerate(words[index+1:]):
-                if anagramHelper(element) == anagramHelper(j):
+                if anagramHelper(element) == anagramHelper(j) and len(element) == len(j):
                     arr.append(j)
                     #print(index+i+1)
                     chosen[index+i+1] = True
